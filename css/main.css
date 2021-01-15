@@ -1,15 +1,19 @@
+/* Fonts: Source Sans & Source Code Pro */
+@import url("source-sans-3VF.css");
+@import url("source-code-variable.css");
+
 html {
     min-height: 100%;
     max-width: 100%;
 }
 body {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Source Sans 3 VF", sans-serif;
     font-size: large;
     background-color: #151515;
     color: white;
 }
 code {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Code Variable', monospace;
 }
 a {
     color: white;
