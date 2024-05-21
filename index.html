@@ -1,41 +1,65 @@
 <!DOCTYPE html>
-<html>
-    <meta charset="utf-8">
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
         <title>SoNothing</title>
-        <meta name="description" content="SoNothing's space on the Internet.">
+        <meta name="description" content="Another landing page somewhere on the Internet.">
         <meta name="author" content="SoNothing">
-        <meta name="theme-color" content="#ffffff">
+        <meta name="theme-color" content="#212121">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS and Fonts -->
-        <link href="/css/main.css" rel="stylesheet">
-        <link href="/css/source-sans-3VF.css" rel="stylesheet">
-        <link href="/css/source-code-variable.css" rel="stylesheet">
-        <style type="text/css">
-            footer {
-                margin-top: 30px;
-            }
-            footer a {
-                color: darkseagreen;
-            }
-            .icons a {
-                text-decoration: none;
-            }        
-        </style>
+        <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a class="current">Home</a></li>
-                    <li>&middot;</li>
-                    <li><a href="/SoNothing-publickey.asc">Current Public Key</a></li>
+        <div class="actual-content">
+            <header>
+                <h1>SoNothing</h1>
+                <p>Welcome to another landing page somewhere on the Internet.</p>
+            </header>
+            <section>
+                <h2 class="section-title">Find me elsewhere</h2>
+                <ul class="find-me-elsewhere">
+                    <li><a href="https://twitter.com/SoNotng/">Twitter</a></li>
+                    <li><a href="https://github.com/SoNothingMC/">GitHub</a></li>
                 </ul>
-            </nav>
-        </header>
-        <div class="main">
-            <h2>SoNothing</h2>
-            <p>find me at the above links</p>
+            </section>
+            <section>
+                <h2 class="section-title">I sorta do programming</h2>
+                <p><i>
+                    I'm just a beginner, but I'm learning to be better at doing things.
+                </i></p>
+                <p>Here are some things that I did:</p>
+                    <section>
+                        <div class="projects grid">
+                            <figure>
+                                <b>sonothing.com</b>
+                                <br>The website you are looking at right now.<br>
+                                <a href="https://github.com/SoNothingMC/SoNothingMC.github.io/">Check out the source code</a>
+                            </figure>
+                            <figure>
+                                <b>bigrat.monster</b>
+                                <br>A big rat.<br>
+                                <a href="https://bigrat.monster/">Check it out</a> | <a href="https://github.com/bigratmonster/">View related sites</a>
+                            </figure>
+                        </div>
+                    </section>
+            </section>
+            <section>
+                <details>
+                    <summary class="section-title">Privacy notice</summary>
+                    <p>
+                        A couple of services that I use collect your data.
+                        <ul>
+                            <li>GitHub Pages <a href="https://docs.github.com/en/github/site-policy/github-privacy-statement/#github-pages">collects your IP address</a>.</li>
+                            <li>Cloudflare <a href="https://www.cloudflare.com/privacypolicy/">collects log data</a>.</li>
+                        </ul>
+                    </p>
+                </details>
+            </section>
+            <hr>
+            <footer>
+                <p>&copy; 2021. All rights reserved. (<a href="https://github.com/SoNothingMC/SoNothingMC.github.io/tree/main/LICENSE/">actual license to be decided</a>)</p>
+                <p>Does this website look familiar? You might have stumbled upon my site where I do more ""professional"" stuffs.</p>
+            </footer>
         </div>
     </body>
 </html>

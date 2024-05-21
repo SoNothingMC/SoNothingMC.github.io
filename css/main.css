@@ -1,40 +1,39 @@
 html {
-    min-height: 100%;
-    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #212121;
+    color: #f2eadc;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: larger;
+    line-height: 1.6;
 }
-body {
-    font-family: "Source Sans 3 VF", sans-serif;
-    font-size: large;
-    background-color: #151515;
-    color: white;
-}
-code {
-    font-family: 'Source Code Variable', monospace;
+.actual-content {
+    margin: 5vh auto;
+    max-width: 75vw;
 }
 a {
-    color: white;
-}
-nav {
-    background-image: linear-gradient(90deg, #303030, #151515 50%);
-    clear: both;
-}
-nav ul {
-    margin: 0px 0px 15px 0px;
-    padding: 5px 0px 5px 15px;
-}
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-nav li a {
     text-decoration: none;
+    color: #2195f2;
 }
-nav li a.current, nav li a.current:hover {
-    color: lightseagreen;
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
 }
-nav li a:hover {
-    color: darkseagreen;
+.section-title {
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
 }
-.main {
-    margin-left: 10px;
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+ul.find-me-elsewhere > li {
+    display: inline;
+    margin: 1vw;
+    line-height: 2;
+}
+.projects.grid {
+    margin: 3vh;
+    display: grid; /* Figure out how to do grid please */
 }
